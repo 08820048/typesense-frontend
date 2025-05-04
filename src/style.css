@@ -1,0 +1,48 @@
+/* Base styles */
+body {
+  background-color: #0f0f1a;
+  color: #c3d0e0;
+  font-family: 'JetBrains Mono', monospace;
+  min-height: 100vh;
+  margin: 0;
+}
+
+#app {
+  min-height: 100vh;
+  width: 100%;
+}
+
+/* Component styles */
+.glass-panel {
+  background-color: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(8px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+}
+
+.highlight-text {
+  color: #00f0ff;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: all 0.3s;
+  color: #c3d0e0;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.btn-highlight {
+  color: #00f0ff;
+}
+
+.btn-highlight:hover {
+  box-shadow: 0 0 10px rgba(0, 240, 255, 0.5), 0 0 20px rgba(0, 240, 255, 0.3);
+}
